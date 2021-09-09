@@ -4,3 +4,95 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background-image: url(../img/jumbo.png);
+}
+
+.logo {
+    float: left;
+    padding: 11px;
+}
+
+.logo img {
+    width: 65%;
+}
+
+.header-list {
+    display: inline-block;
+    height: 48.6px;
+    
+}
+
+.header-list li {
+    list-style: none;
+    float: left;
+}
+
+.header-list li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 11px;
+    line-height: 48.6px;
+}
+
+.header-button {
+    float: right;
+    height: 48.6px;
+}
+
+.header-button a {
+    text-decoration: none;
+    color: black;
+    float: right;
+}
+
+/*  Utilities */
+
+.general {
+    max-width: 920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.btn {
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.btn-small {
+    padding: 7px;
+    font-size: 10px;
+}
+
+.btn-black {
+    color: white;
+    background-color: rgb(19, 18, 18);
+}
+
+.btn-white {
+    color: black;
+    background-color: white;
+}
+
+.col-1_6 {
+    width: calc(100% / 6);
+}
+
+.col-2_6 {
+    width: calc(100% / 6 * 2);
+}
+
+.col-4_6 {
+    width: calc(100% / 6 * 4);
+}
