@@ -10,6 +10,8 @@ body {
 
 header {
     background-image: url(../img/jumbo.png);
+    background-size: cover;
+
 }
 
 .logo {
@@ -24,7 +26,12 @@ header {
 .header-list {
     display: inline-block;
     height: 48.6px;
+    text-align: center;
     
+}
+
+.header-list ul {
+    display: inline-block;
 }
 
 .header-list li {
@@ -43,12 +50,44 @@ header {
 .header-button {
     float: right;
     height: 48.6px;
+    padding-top: 13px;
 }
 
 .header-button a {
     text-decoration: none;
     color: black;
     float: right;
+}
+
+.header-text {
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+.header-h1 {
+    font-size: 25px;
+    color: white;
+    padding: 22px;
+}
+
+.header-p {
+    width: 65%;
+    margin: 0 auto;
+    color: white;
+
+}
+
+.header-buttons {
+    margin-top: 30px;
+    margin-bottom: 105px;
+    display: inline-block;
+}
+
+.header-text a {
+    text-decoration: none;
+    padding: 12px;
+    margin: 15px;
 }
 
 /*  Utilities */
