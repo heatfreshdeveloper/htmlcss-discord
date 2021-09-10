@@ -13,6 +13,10 @@ header {
     background-size: cover;
 }
 
+footer {
+    background-color: rgb(19, 18, 18);
+}
+
 .logo {
     float: left;
     padding: 11px;
@@ -138,6 +142,7 @@ header {
 
 .body-text2 {
     float: left;
+    padding-left: 30px;
 }
 
 .body-text2 h1 {
@@ -229,6 +234,7 @@ header {
     margin: 0 auto;
     padding: 20px;
     position: relative;
+    margin-bottom: 50px;
 }
 
 .last-button h1 {
@@ -250,6 +256,7 @@ header {
     border-radius: 50px;
     padding: 15px;
     margin-top: 65px;
+    margin-bottom: 65px;
 }
 
 /*  Utilities */
@@ -264,6 +271,15 @@ header {
     content: "";
     display: table;
     clear: both;
+}
+
+.footer-color {
+    color:rgb(130, 84, 216);
+}
+
+.icons {
+    color: white;
+    padding: 10px;
 }
 
 .btn {
