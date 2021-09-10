@@ -11,7 +11,6 @@ body {
 header {
     background-image: url(../img/jumbo.png);
     background-size: cover;
-
 }
 
 .logo {
@@ -90,6 +89,169 @@ header {
     margin: 15px;
 }
 
+.card1 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.body-img1 {
+    display: inline-block;
+}
+
+.body-img1 img {
+    width: 80%;
+}
+
+
+.body-text1 {
+    float: right;
+}
+
+.body-text1 h1 {
+    width: 75%;
+    font-size: 35px;
+    color: rgb(19, 18, 18);
+    padding-top: 21px;
+}
+
+.body-text1 p {
+    width: 60%;
+    font-size: 13px;
+    padding-top: 20px;
+    color: rgb(19, 18, 18);
+}
+
+.card2 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.body-img2 {
+    display: inline-block;
+    padding-left: 65px;
+}
+
+.body-img2 img {
+    width: 85%;
+}
+
+
+.body-text2 {
+    float: left;
+}
+
+.body-text2 h1 {
+    width: 75%;
+    font-size: 35px;
+    color: rgb(19, 18, 18);
+    padding-top: 21px;
+}
+
+.body-text2 p {
+    width: 60%;
+    font-size: 13px;
+    padding-top: 20px;
+    color: rgb(19, 18, 18);
+}
+
+.card3 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.body-img3 {
+    display: inline-block;
+}
+
+.body-img3 img {
+    width: 80%;
+}
+
+
+.body-text3 {
+    float: right;
+}
+
+.body-text3 h1 {
+    width: 75%;
+    font-size: 35px;
+    color: rgb(19, 18, 18);
+    padding-top: 21px;
+}
+
+.body-text3 p {
+    width: 60%;
+    font-size: 13px;
+    padding-top: 20px;
+    color: rgb(19, 18, 18);
+}
+
+.card4 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.body-img4 {
+    display: inline-block;
+}
+
+.body-img4 img {
+    width: 100%;
+}
+
+
+.body-text4 {
+    text-align: center;
+}
+
+.body-text4 h1 {
+    width: 100%;
+    font-size: 35px;
+    color: rgb(19, 18, 18);
+    padding-top: 21px;
+}
+
+.text4-p {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.body-text4 p {
+    font-size: 13px;
+    padding-top: 20px;
+    color: rgb(19, 18, 18);
+}
+
+
+.last-button {
+    text-align: center;
+    height: 200px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+
+.last-button h1 {
+    padding: 40px;
+}
+
+.last-button img {
+    width: 40%;
+    position: absolute;
+    top: 30px;
+    right: 295px;
+}
+
+.last-button a {
+    background-color: rgb(130, 84, 216);
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 50px;
+    padding: 15px;
+    margin-top: 65px;
+}
+
 /*  Utilities */
 
 .general {
@@ -120,7 +282,7 @@ header {
 }
 
 .btn-white {
-    color: black;
+    color: rgb(19, 18, 18);
     background-color: white;
 }
 
